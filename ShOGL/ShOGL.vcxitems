@@ -14,9 +14,14 @@
     <ProjectCapability Include="SourceItemsFromImports" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="$(MSBuildThisFileDirectory)highgl.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)basic_ogl_includes.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)highgl\highgl.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)includes\highgl.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)includes\redneck_tools.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)redneck_tools\shader_program.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="$(MSBuildThisFileDirectory)highgl.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)highgl\highgl.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)redneck_tools\shader_program.cpp" />
   </ItemGroup>
 </Project>
