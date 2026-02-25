@@ -3,7 +3,7 @@
   <PropertyGroup Label="Globals">
     <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
     <HasSharedItems>true</HasSharedItems>
-    <ItemsProjectGuid>{ec42155c-eea6-432a-8d35-7715d39a25d2}</ItemsProjectGuid>
+    <ItemsProjectGuid>{1b2346ec-b3c9-4170-8b03-f557eef1e4e9}</ItemsProjectGuid>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <ClCompile>
@@ -14,10 +14,9 @@
     <ProjectCapability Include="SourceItemsFromImports" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="$(MSBuildThisFileDirectory)basic_math_includes.hpp" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)lin_gem_3d.hpp" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)mat3.hpp" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)quat.hpp" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)vec3.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)highgl.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)highgl.cpp" />
   </ItemGroup>
 </Project>

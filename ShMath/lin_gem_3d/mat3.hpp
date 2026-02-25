@@ -1,5 +1,5 @@
-#ifndef VOGL_MAT3_HPP
-#define VOGL_MAT3_HPP
+#ifndef SH_MATH_LIN_GEM_3D_MAT3_HPP
+#define SH_MATH_LIN_GEM_3D_MAT3_HPP
 
 #include "basic_math_includes.hpp"
 #include "vec3.hpp"
@@ -151,4 +151,4 @@ inline mat3<float> rot_zx(float alpha) {
 }
 #endif//USE_STANDART_MATH
 
-#endif//VOGL_MAT3_HPP
+#endif//SH_MATH_LIN_GEM_3D_MAT3_HPP

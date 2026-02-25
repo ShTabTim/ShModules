@@ -1,5 +1,5 @@
-#ifndef SH_MATH_3D_QUAT_HPP
-#define SH_MATH_3D_QUAT_HPP
+#ifndef SH_MATH_LIN_GEM_3D_QUAT_HPP
+#define SH_MATH_LIN_GEM_3D_QUAT_HPP
 
 #include "basic_math_includes.hpp"
 #include "vec3.hpp"
@@ -60,4 +60,4 @@ template<typename T> inline quat<T> inv(const quat<T>& q) { return conj(q)/abs2(
 template<typename T> inline quat<float> normalize(const quat<T>& q) { return conj(q)/abs(q); }
 #endif//USE_STANDART_MATH
 
-#endif//SH_MATH_3D_QUAT_HPP
+#endif//SH_MATH_LIN_GEM_3D_QUAT_HPP

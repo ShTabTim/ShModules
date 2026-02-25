@@ -1,5 +1,5 @@
-#ifndef SH_MATH_3D_VEC3_HPP
-#define SH_MATH_3D_VEC3_HPP
+#ifndef SH_MATH_LIN_GEM_3D_VEC3_HPP
+#define SH_MATH_LIN_GEM_3D_VEC3_HPP
 
 #include "basic_math_includes.hpp"
 
@@ -57,4 +57,4 @@ template<typename O> inline vec3<O> cross(const vec3<O>& a, const vec3<O>& b) {
     );
 }
 
-#endif//SH_MATH_3D_VEC3_HPP
+#endif//SH_MATH_LIN_GEM_3D_VEC3_HPP
