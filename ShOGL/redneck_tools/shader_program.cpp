@@ -1,4 +1,4 @@
-#include "shader_prog.hpp"
+#include "shader_program.hpp"
 
 GLuint compile_shader(GLenum type, const GLchar* source, const std::wstring& name) {
 	GLint success;

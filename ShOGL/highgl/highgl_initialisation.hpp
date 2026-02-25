@@ -1,0 +1,17 @@
+#ifndef SH_OGL_HIGHGL_HIGHGLINITIALISATION_HPP
+#define SH_OGL_HIGHGL_HIGHGLINITIALISATION_HPP
+
+#include "../basic_ogl_includes.hpp"
+#include "highgl.hpp"
+
+#ifndef SH_OGL_MAJOR_VERSION
+#define SH_OGL_MAJOR_VERSION 3
+#endif//SH_OGL_MAJOR_VERSION
+
+#ifndef SH_OGL_MINOR_VERSION
+#define SH_OGL_MINOR_VERSION 3
+#endif//SH_OGL_MINOR_VERSION
+
+HGLRC get_gl(HDC dc);
+
+#endif//SH_OGL_HIGHGL_HIGHGLINITIALISATION_HPP

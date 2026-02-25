@@ -16,6 +16,7 @@
   <ItemGroup>
     <ClInclude Include="$(MSBuildThisFileDirectory)basic_ogl_includes.hpp" />
     <ClInclude Include="$(MSBuildThisFileDirectory)highgl\highgl.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)highgl\highgl_initialisation.hpp" />
     <ClInclude Include="$(MSBuildThisFileDirectory)includes\highgl.hpp" />
     <ClInclude Include="$(MSBuildThisFileDirectory)includes\redneck_tools.hpp" />
     <ClInclude Include="$(MSBuildThisFileDirectory)redneck_tools\shader_program.hpp" />
