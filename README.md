@@ -5,6 +5,7 @@ It's my simple shared modules for all projects.
 
 | Name | Goal | defines |
 | :---: | :---: | :---: |
+| lin_gem_2d | linear geometry for $T^2$ | USE_STANDART_MATH - cmath: abs, sqrt |
 | lin_gem_3d | linear geometry for $T^3$ | USE_STANDART_MATH - cmath: sin, cos, sqrt |
 
 ## ShOGL
