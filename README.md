@@ -12,4 +12,4 @@ It's my simple shared modules for all projects.
 | Name | Goal | defines |
 | :---: | :---: | :---: |
 | highgl | myown definition of new functions |  |
-| redneck_tools | tools for simple work with ogl |  |
+| redneck_tools | tools for simple work with ogl | SH_OGL_MINOR_VERSION <br> SH_OGL_MAJOR_VERSION <br> USE_OGL_DEBUG |
